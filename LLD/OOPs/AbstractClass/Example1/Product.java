@@ -4,6 +4,6 @@ public abstract class Product {
     public abstract double calculateDiscount();
 
     public void termsAndCondition(){
-        System.out.println("Some terms and condition");
+        System.out.println("terms and condition for all");
     }
 }

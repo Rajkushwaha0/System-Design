@@ -1,6 +1,6 @@
 package LLD.OOPs.AbstractClass.Example1;
 
-public class Mackbook extends Product {
+public class Macbook extends Product {
     @Override 
     public double calculateDiscount(){
         return 12.02;
@@ -8,6 +8,6 @@ public class Mackbook extends Product {
 
     @Override
     public void termsAndCondition(){
-        System.out.println("Some terms");
+        System.out.println("Custom terms and condition for macbook.");
     }
 }
